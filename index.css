@@ -1,0 +1,249 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+  /* overflow-x: hidden; */
+}
+
+body{
+  background-color: #FFFFFF;
+}
+
+header h1{
+  color: rgb(14, 8, 1);
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 2.25em;
+}
+
+.NavMenu{
+  display: grid;
+  grid-template-columns:20% 40% 20% ;
+}
+
+.Price a::before{
+  height: 20px;
+  width: 20px;
+  content: '';
+  background-image: url(./asset/bag.svg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.85);
+  bottom: 2%;
+  position: absolute;
+  left: -55%;
+}
+
+.Wishlist a::before{
+  height: 20px;
+  width: 20px;
+  content: '';
+  background-image: url(./asset/heart.svg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.85);
+  bottom: 2%;
+  position: absolute;
+  left: -55%;
+}
+
+
+.SearchIcon a::before{
+  height: 20px;
+  width: 20px;
+  content: '';
+  background-image: url(./asset/search.svg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.85);
+  bottom: 2%;
+  position: absolute;
+  left: -55%;
+}
+
+.MenuIcon a::before{
+  height: 20px;
+  width: 20px;
+  content: '';
+  background-image: url(./asset/menu.svg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  bottom: 2%;
+  position: absolute;
+  padding-bottom: 30%;
+}
+
+
+
+.SubMenu{
+  display: flex;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+#SubMenu1{
+  margin-left: 2em;
+}
+
+#SubMenu2{
+  margin-left: 8em;
+}
+
+#SubMenu3{
+  margin-left: 8em;
+}
+
+.Wishlist, .Price, .SearchIcon{ 
+  position: relative; 
+}
+
+.SubMenu a{
+  margin-left: 3vw;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  position: relative;
+  font-size: 0.85em;
+
+  /* padding-left: 1em; */
+}
+
+.SubMenu:nth-child(3){
+  left: 90%;
+  /* background-color: red; */
+}
+
+.ShoppingBagIcon{
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  left: 50%;
+}
+
+
+                      /* Showcase */
+
+.Showcase{
+  min-height: 440px;
+  width: 100%;
+  position: relative;
+  background-image: url(./asset/three-green-aloe-vera-plants-904621.jpg);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text{
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  background-color: transparent;
+}
+
+.ViewMore{
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(5, 5, 5);
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1%;
+  color: rgb(255, 255, 255);
+}
+
+.shop{
+  margin-top: 10em;
+  position: relative;
+  background-color: rgb(73, 135, 163);
+  height: 50em;
+  width: 100%;
+}
+
+.shop div:nth-child(1){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.shop div:nth-child(2){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  left:27%;
+  margin-top: 2em;
+}
+
+.shop div:nth-child(3){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  left:54%;
+  margin-top: 2em;
+}
+
+.shop div:nth-child(4){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  left:78%;
+  margin-top: 2em;
+}
+
+.shop div:nth-child(5){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  margin-left: 2em;
+  top: 50%;
+  margin-top: 2em;
+}
+
+.shop div:nth-child(6){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  left:27%;
+  top: 50%;
+  margin-top: 2em;
+}
+
+.shop div:nth-child(7){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  left:54%;
+  top: 50%;
+  margin-top: 2em;
+}
+
+.shop div:nth-child(8){
+  position: absolute;
+  background-color: rgb(154, 151, 163);
+  height: 300px;
+  width: 300px;
+  left:78%;
+  top: 50%;
+  margin-top: 2em;
+}

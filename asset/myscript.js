@@ -1,0 +1,1 @@
+// alert ('This demo site might require an active internet to function properly');
