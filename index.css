@@ -164,86 +164,149 @@ header h1{
   color: rgb(255, 255, 255);
 }
 
-.shop{
-  margin-top: 10em;
+               /* collection */
+  .colection{
+  display: flex;
   position: relative;
-  background-color: rgb(73, 135, 163);
-  height: 50em;
+  margin-top: 4em;
+  height: 40em;
+}
+
+.collection div:nth-child(1){
+  background:url(./asset/pexels-photo-1820567-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+  position: absolute;
+  left: 0%;
+  height: 260px;
+  width: 454px;
+  margin-top: 4em;
+
+}
+
+.collection div:nth-child(2){
+  background:url(./asset/green-leaf-plant-in-brown-pot-inside-room-916339.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  position: absolute;
+  left: 30%;
+  height: 260px;
+  width: 454px;
+  margin-top: 4em;
+
+}
+
+.collection div:nth-child(3){
+  background:url(./asset/pexels-photo-3502165-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  position: absolute;
+  left: 68%;
+  height: 260px;
+  width: 454px;
+  margin-top: 4em;
+
+  /* display: inline-block; */
+}
+
+.collection div h2{
+  margin-left: 2em;
+  margin-top: 3.5em;
+}
+
+.collection a{
+  position: absolute;
+  margin-left: 3em;
+  top: 12em;
+  color: black;
+  text-decoration-color: black;
+}
+
+              /* Shop */
+
+.shop{
+  margin-top: 40em;
+  position: relative;
+  background-color: rgb(129, 46, 46);
+  height: 70em;
   width: 100%;
 }
 
-.shop div:nth-child(1){
+.shop a:nth-child(1){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   margin-left: 2em;
   margin-top: 2em;
 }
 
-.shop div:nth-child(2){
+.shop a:nth-child(2){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   left:27%;
   margin-top: 2em;
 }
 
-.shop div:nth-child(3){
+.shop a:nth-child(3){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   left:54%;
   margin-top: 2em;
 }
 
-.shop div:nth-child(4){
+.shop a:nth-child(4){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   left:78%;
   margin-top: 2em;
 }
 
-.shop div:nth-child(5){
+.shop a:nth-child(5){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   margin-left: 2em;
-  top: 50%;
+  top: 55%;
   margin-top: 2em;
 }
 
-.shop div:nth-child(6){
+.shop a:nth-child(6){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   left:27%;
-  top: 50%;
+  top: 55%;
   margin-top: 2em;
 }
 
-.shop div:nth-child(7){
+.shop a:nth-child(7){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   left:54%;
-  top: 50%;
+  top: 55%;
   margin-top: 2em;
 }
 
-.shop div:nth-child(8){
+.shop a:nth-child(8){
   position: absolute;
-  background-color: rgb(154, 151, 163);
-  height: 300px;
+  background-color: #F7F5F6;
+  height: 426px;
   width: 300px;
   left:78%;
-  top: 50%;
+  top: 55%;
   margin-top: 2em;
 }
