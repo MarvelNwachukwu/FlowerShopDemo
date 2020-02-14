@@ -225,12 +225,26 @@ header h1{
   text-decoration-color: black;
 }
 
+              /* Categories */
+
+.categories{
+  text-align: center;
+  position: relative;
+  top: 30em;
+ 
+}
+
+.categories a{
+  margin: 10em;
+  position: absolute;
+}
+
               /* Shop */
 
 .shop{
   margin-top: 40em;
   position: relative;
-  background-color: rgb(129, 46, 46);
+  background-color: rgb(255, 255, 255);
   height: 70em;
   width: 100%;
 }
@@ -242,6 +256,10 @@ header h1{
   width: 300px;
   margin-left: 2em;
   margin-top: 2em;
+  background-image: url(./asset/pexels-photo-931176-removebg-preview\(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .shop a:nth-child(2){
@@ -251,6 +269,10 @@ header h1{
   width: 300px;
   left:27%;
   margin-top: 2em;
+  background-image: url(./asset/pexels-photo-1445417-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .shop a:nth-child(3){
@@ -260,6 +282,10 @@ header h1{
   width: 300px;
   left:54%;
   margin-top: 2em;
+  background-image: url(./asset/red-bouquet-roses-bridal-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .shop a:nth-child(4){
@@ -269,6 +295,10 @@ header h1{
   width: 300px;
   left:78%;
   margin-top: 2em;
+  background-image: url(./asset/pexels-photo-3075988-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .shop a:nth-child(5){
@@ -279,6 +309,10 @@ header h1{
   margin-left: 2em;
   top: 55%;
   margin-top: 2em;
+  background-image: url(./asset/pexels-photo-1070860-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .shop a:nth-child(6){
@@ -289,6 +323,10 @@ header h1{
   left:27%;
   top: 55%;
   margin-top: 2em;
+  background-image: url(./asset/red-bouquet-roses-bridal-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .shop a:nth-child(7){
@@ -299,6 +337,10 @@ header h1{
   left:54%;
   top: 55%;
   margin-top: 2em;
+  background-image: url(./asset/tulip-flower-bloom-pink-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .shop a:nth-child(8){
@@ -309,4 +351,8 @@ header h1{
   left:78%;
   top: 55%;
   margin-top: 2em;
+  background-image: url(./asset/pexels-photo-1058771-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
