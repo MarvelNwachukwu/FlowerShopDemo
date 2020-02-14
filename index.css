@@ -235,14 +235,15 @@ header h1{
 }
 
 .categories a{
-  margin: 10em;
-  position: absolute;
+  margin-right: 2em;
+  color: black;
+  font-size: 0.85em;
 }
 
               /* Shop */
 
 .shop{
-  margin-top: 40em;
+  margin-top: 30em;
   position: relative;
   background-color: rgb(255, 255, 255);
   height: 70em;
@@ -355,4 +356,25 @@ header h1{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+.shop a:nth-child(1)::before{
+  height: 100px;
+  width: 300px;
+  content: 'Bush Peonies $20.00';
+  position: relative;
+  top: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+.shop a:nth-child(1)::after{
+  height: 100px;
+  width: 300px;
+  content: 'BOUQUOTE';
+  position: relative;
+  top: 110%;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
