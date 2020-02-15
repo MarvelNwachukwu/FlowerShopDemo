@@ -1,13 +1,21 @@
+  
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Poppins', sans-serif;
+     */
 *{
   padding:0;
   margin: 0;
   box-sizing:border-box;
-  font-family: 'Montserrat', sans-serif;
+  
   /* overflow-x: hidden; */
 }
 
 body{
-  background-color: #FFFFFF;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  
 }
 
 header h1{
@@ -16,6 +24,7 @@ header h1{
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   font-size: 2.25em;
+  font-family: 'Kanit', sans-serif;
 }
 
 .NavMenu{
@@ -370,11 +379,80 @@ header h1{
 
 .shop a:nth-child(1)::after{
   height: 100px;
-  width: 300px;
+  width: 100px;
   content: 'BOUQUOTE';
   position: relative;
-  top: 110%;
+  top: 100%;
   color: black;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.shop a:nth-child(2)::before{
+  height: 100px;
+  width: 300px;
+  content: ' Suri Succulent $17.00';
+  position: relative;
+  top: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+.shop a:nth-child(2)::after{
+  height: 100px;
+  width: 100px;
+  content: 'Succulents';
+  position: relative;
+  top: 100%;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.shop a:nth-child(3)::before{
+  height: 100px;
+  width: 300px;
+  content: 'Peonies and Roses $40.00';
+  position: relative;
+  top: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+.shop a:nth-child(3)::after{
+  height: 100px;
+  width: 100px;
+  content: 'BOUQUOTE';
+  position: relative;
+  top: 100%;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.shop a:nth-child(4)::before{
+  height: 100px;
+  width: 300px;
+  content: 'Aloe Succulent $40.00';
+  position: relative;
+  top: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+.shop a:nth-child(4)::after{
+  height: 100px;
+  width: 100px;
+  content: 'Succulents';
+  position: relative;
+  top: 100%;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
+  line-height: 21px;
 }
